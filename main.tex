@@ -1,0 +1,355 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+
+\title{Project Plan Template}
+\author{YKK, X, Y, Z}
+\date{January 2020}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+
+\begin{document}
+
+\maketitle
+
+
+
+\section*{Project Phase Plan} %%% DELETE THIS ENTIRE SECTION -- IT IS HERE FOR YOUR INFORMATION ONLY
+%\input{problem_statement}
+
+The goal of this assignment is to 
+\begin{itemize}
+\item plan out your overall project goals, 
+\item describe your solution to the client's problem,
+\item show how your solution fits the client's needs, 
+\item outline how your team will accomplish this solution, and 
+\item list specific tasks for this phase.
+\end{itemize}
+
+Each team must submit a project plan, which is a professional document and serves as a more technical project update.
+Think of this as a contract between you and your client. 
+\textit{Aim for thoroughness but without sacrificing brevity. }
+
+We will revisit this document throughout the semester to see how your expectations match (or did not match) reality. 
+You will also be using the elements of this project plan in your final report. 
+Below is a template that I expect you to follow.
+
+\newpage
+
+\section*{Template}  %%% DELETE THIS LINE
+
+\section*{Code and Project Management}
+
+\subsection*{GitHub}
+%%% Remember to create an organization for your project.
+%%% Include a link to the (public) GitHub repo for your project where all team members are added as collaborators. 
+Repository URL: 
+\url{http://github.com/XXX}
+
+\subsection*{Project Management System}
+%%% Include a link to your GitHub Project, which lists the tasks for the current phase. 
+GitHub Project URL:
+\url{http://github.com/XXX}
+
+%%% DELETE THE DESCRIPTION THAT FOLLOWS -- IT IS HERE FOR YOUR INFORMATION ONLY
+For your tasks, you can use the user story format (e.g., "As a user, I want to ... so that ....") or use a short, descriptive phrase.
+% As an example: Waffle.io is a popular project management system, and you can see the company's tasks on their public board: https://waffle.io/waffleio/waffle.io.
+% We recommend GitHub Projects, since it is integrated into your repos
+
+Make sure that the tasks that are converted into issues are \textbf{small and specific} -- you should break up the epics (i.e., large user stories) into smaller user stories (estimated to be completed within 2-4 hours). You should have a set of tasks that are "features" or "chores" (add these labels to your GitHub Project board). Chores can be technical user stories that describe something you need to learn how to do to be able to design and develop the project.
+
+Assign \textbf{each team member} to at least one issue via GitHub.
+Remember, staff should be able to ask you "What are you doing this week on the project?", and you should be able to answer that question and identify the task within GitHub Projects tasks that you are working on.
+
+%
+% At a minimum, your project plan should include the following:
+% ------------------------------------------------------------
+\section{Summary}
+% ------------------------------------------------------------
+A summary: a brief [2-10 sentences] summary of the project, on the level of a description in an app store.
+
+% ------------------------------------------------------------
+\section{Problem description}
+% ------------------------------------------------------------
+A description of the problem answers the question: What problem are you trying to solve?
+
+% ------------------------------------------------------------
+\section{Stakeholders}
+% ------------------------------------------------------------
+A list of the stakeholders in the project and their roles.
+
+A stakeholder is a person outside the development team who has a direct interest in the project's outcome.\footnote{More info can be found here: \url{http://www.boost.co.nz/blog/2010/10/user-stories-stakeholders} and \url{http://agilemodeling.com/essays/activeStakeholderParticipation.htm#Stakeholders}.}
+Stakeholders can be the owners, admins, maintainers, outside users, etc.
+
+% ------------------------------------------------------------
+\section{Background}
+% ------------------------------------------------------------
+Any relevant background research (along with the appropriate References included at the end of the document).
+If you list anything in the References, make sure that item is actually referenced in the document (e.g., \cite{adams1995hitchhiker} or \citep{adams1995hitchhiker}).
+
+% ------------------------------------------------------------
+\section{Proposed solution}
+% ------------------------------------------------------------
+% ------------------------------------------------------------
+\subsection{Minimum Viable Product (MVP)}
+% ------------------------------------------------------------
+Describe which features make up the essential/core functionality of your solution (i.e., your MVP).
+Include a bulleted list of features, which the team plans to add once the MVP is completed.
+
+List the feature ``name'' and describe the feature. For example:
+\begin{itemize}
+\item \textbf{Login interface}: use OAuth to verify user credentials and provide access to the dashboard.
+\item \textbf{Dashboard}: ...
+\end{itemize}
+
+% ------------------------------------------------------------
+\subsection{Post-MVP features}
+% ------------------------------------------------------------
+Your MVP is a minimal version of your product, so as soon as you show its viability,
+what are the other features that you will add?
+
+% ------------------------------------------------------------
+\subsection{Stretch goals}
+% ------------------------------------------------------------
+What features would be nice to have but are either not essential or are currently too challenging to implement?
+
+
+% % ------------------------------------------------------------
+% \subsection{Architectural Model}
+% % ------------------------------------------------------------
+
+% \begin{verbatim}
+% 	No need to include this section in the current project plan.
+%     Make sure, however, to address the comments from the Architecture 
+%     document, and convert it into a properly-formatted Latex document.
+% \end{verbatim}
+% % 
+% Your Final report, should outline the Architectural Model of your solution along with particular technical components of your solution. 
+% Refer to "Model you app's architecture" article.\footnote{\url{https://msdn.microsoft.com/en-us/library/dd490886.aspx}}
+
+%     As with your project architecture document, identify the major components, their responsibilities, and their interactions. Consider both run-time components and persistent data objects (e.g., input files, database storage). 
+
+% Make sure that you include the relevant UML diagrams. Diagrams are helpful in providing an overview of your system. (Perhaps, the PM presentation included helpful visuals that you can include in this section.)
+%     If you considered alternative architectures during this project, provide a brief overview and why you eventually decided on the current design.
+    
+%     Make sure that all figures a properly captured and referenced within text.
+
+% % ------------------------------------------------------------
+% \subsection{Functionality, products and services}
+% % ------------------------------------------------------------
+
+% \begin{verbatim}
+% 	No need to include this section in the current project plan.
+%     Make sure, however, to address the comments from the Functionality 
+%     document, and convert it into a properly-formatted Latex document.
+% \end{verbatim}
+
+% Your Final report, should outline the functionality, products and services that your team plans to provide to the client.
+% Describe the core functionality of the app (at the level of a user guide).
+ 
+%    After going through your write-up, a user should be able to tell you what features your application offer. Functionality Overview is intended both to \textbf{convince} the user that they want your product and to \textbf{inform} an already existing user of all the features that you offer. 
+   
+%      The app flow and page functionality tend to make more sense with screenshots and use-case diagrams. (Again, make sure that all figures a properly captured and referenced within text.)
+     
+% ------------------------------------------------------------
+\section{Risks and solutions}
+% ------------------------------------------------------------
+   List up to top 5 potential problems that might hinder the successful delivery of the product in \textit{this phase}. 
+   Order the risks from the most severe and likely to the least severe and/or least likely.
+   Describe these problems, along with an approach for how they will be addressed / resolved.
+   Use the following format:
+   
+   \subsection{Risk \#1}
+   Describe the problem.
+   
+   \textbf{Potential Solution(s): }
+
+
+
+
+% ------------------------------------------------------------
+\section{Timeline}
+% ------------------------------------------------------------
+%%% Remove/comment-out these instructions before turning in your plan.
+Outline a timeline for all phases.
+Make sure to account for the project report, poster, and the finished product as part of the Phase 4 deliverables.
+I recommend not planning any development during the last phase.
+
+\textbf{An epic} is a large user story, which is a collection of smaller user stores.
+You can have multiple epics per phase depending on how you break down the stories. 
+Epics can span multiple phases, but in your planning I recommend constraining epics to a phase (they might, and likely will, naturally end up taking longer).
+
+The points in the user stories refer to the expected difficulty of the story (the higher the number, the more challenging it is expected to be). Normally, they are done as a Fibonacci sequence: 1,2,3,5,8\footnote{You can read more about story points:
+\url{https://www.atlassian.com/agile/estimation} and \url{https://agilefaq.wordpress.com/2007/11/13/what-is-a-story-point}.}.
+
+You can use the following \textbf{time-per-person estimations} for assigning the points:
+
+%%% Leave these estimations in the plan for reference (especially, if you adjust them).
+1pt = 30 min
+
+2 pts = 2 hrs 
+
+3 pts = 3-4 hrs
+
+5 pts = full day (i.e., several work sessions)
+
+8 pts = 3 days (the task would be finished after working on it continuously almost every day for about 3 days)
+
+13 pts = this is too large for a single user story -- consider breaking it up into smaller user stories.
+\\
+
+Use the following format for your timeline:
+%
+\begin{center}
+\begin{tabular}{ |c | l | c| c|} 
+\hline
+\textbf{Phase}& \textbf{Epic}& \textbf{Points}& \textbf{Expected}  \\ 
+      & 	& 	& \textbf{Completion}  \\ 
+\hline
+X	& 	\textbf{[epic title]}	& XXX &	DATE\\
+	& here's how to add another line	&  &	\\
+	& if you need it	&  &	\\
+\hline
+X	&	\textbf{[epic title]} &	XXX & ADD DATE  \\
+\hline
+2	&	\textbf{Prototype for the client meeting} &	XXX & 03/21 \\
+\hline
+3	&	\textbf{Phase 3 Plan} &	XXX & 03/25 \\
+\hline
+4	&	\textbf{Final write-up draft} &	XXX & 04/18 \\
+\hline
+4	&	\textbf{Final poster} &	XXX & 04/24 \\
+\hline
+\end{tabular}
+\end{center}
+
+
+% ------------------------------------------------------------
+\section{Current Phase Plan}
+% ------------------------------------------------------------
+In this section, provide a detailed work plan for \textit{this phase}.
+Outline which epics you will be working on, estimate their difficulty, and break them down into specific user stories.
+
+For \textbf{each} <epic title> for your current phase provide the following information:
+
+\subsection{{[epic title 1]} [points] [expected completion date]} %%% use a short description for the user story in the subsection title, e.g., "Add a toolbar"
+\textbf{Deliverable}: describe what you plan to deliver as a result of this epic.
+
+List user stories that make up this epic.
+\begin{itemize}
+\item As a [role], I want to [goal/desire], so that [reason/benefit].
+\item As a ..., I want to ..., so that ....
+\item ...
+\end{itemize}
+
+\subsection{[epic title 2] [points] [expected completion date]}
+\textbf{Deliverable}: 
+
+\begin{itemize}
+\item As a [role], I want to [goal/desire], so that [reason/benefit].
+\item As a ..., I want to ..., so that ....
+\item ...
+\end{itemize}
+
+\pagebreak
+
+%%% Appendices.
+
+%%% For your Statement of Work, you probably won't have any
+%%% appendices, but you could include some if you really needed to.
+
+%%% The appendices are delineated with the \appendix command.
+%%% Individual appendices are begun with the standard \chapter or
+%%% \section commands.  In our example, we'll \include them just as we
+%%% did other chapters.
+
+%%% Even in a relatively short document such as your statement of
+%%% work, you might need to have appendices.  If so, uncomment
+%%% the \appendix command and add them below (remember, the
+%%% top-level structural command in this format is section).
+
+ \appendix
+ \section{Useful \LaTeX ~examples}
+ 
+ \subsection{Text styling}
+An example of how to \texttt{create text} that is \textbf{bold} or \textit{italicized}. 
+
+ \subsection{Figures}
+This is how you reference a figure (see Figure~\ref{fig:universe-pic}).
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.15\textwidth, width=0.35\textwidth]{universe.jpg}
+\caption{An example of an image with the corresponding caption.}
+\label{fig:universe-pic} %%% a label allows you to reference the figure in the text
+%\medskip
+\small
+\end{figure}
+
+
+\subsection{References} 
+An example of how to include a reference (\cite{OpenCV} and \cite{SIFT}) from you \texttt{.bib} file. Here's another way to reference something, which automatically adds parentheses around the citation~\citep{adams1995hitchhiker}.
+
+
+
+%%% Bibliography.
+
+%%% BibTeX is the tool to use for citations and layout of your
+%%% bibliography.  Instead of having to type ``[5]'' or ``(Jones,
+%%% 1968)'' (and keep track of which citation is which and renumber
+%%% them as you add more references to your bibilography), you use
+%%% special commands that allow BibTeX and LaTeX to automatically put
+%%% the correct information in the right place.
+
+%%% Section 5.6 in _The Mathematics Clinic in Brief: A Handbook_,
+%%% talks about using BibTeX to format your bibliography and
+%%% citations.
+
+%%% Depending on your field, it may or may not be appropriate to list
+%%% references for which you haven't included specific citations.  If
+%%% your field sanctions such practices, or if you just want to get an
+%%% idea of what you have in your bibliography file, you can include
+%%% everything with the \nocite{*} command.
+\nocite{*} 
+
+
+%%% The appearance of your bibliography and citations in your text are
+%%% defined by a combination of any bibliography-related LaTeX
+%%% packages (such as natbib, harvard, or chicago) and the particular
+%%% bibliography style file that you load with the \bibliographystyle
+%%% command.  Bibliography-style files end in .bst; you can find them
+%%% by searching your file system using whatever tools you have for
+%%% doing searches.  (On most modern Unices, ``locate .bst'' will give
+%%% you an idea of what's available.)
+
+\bibliographystyle{acm}
+
+%%% The particular bibliography data file or files that you want to
+%%% use are specified with the \bibliography file.  Multiple files are
+%%% separated by commas.
+
+%%% You might want to use multiple bibliography (or ``bib'') files if
+%%% you had a master bib file containing references you use again and
+%%% again, and another containing only records for references for a
+%%% particular project.
+
+%%% Many people create a single, large bib file that they use for
+%%% everything they write.  That approach requires you to \cite every
+%%% reference that you want to use in your document -- using
+%%% \nocite{*} with a huge bibliography database will give you a large
+%%% bibliography containing many references you haven't consulted for
+%%% your particular document!
+\pagebreak
+
+\bibliography{references}
+
+
+%%% Glossary or Index.
+
+%%% Having a glossary or index in a statement of work is overkill.
+%%% Just define your terms in the text and you'll be fine.
+
+
+\end{document}
